@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َStudent Registration Form</title>
+    <link rel="stylesheet" href="/public/css/signup.css">
+    <script src="/public/js/signup.js"></script>
+ </head>
+  <body>
+<form class="box" name="Form" action="/validate" method="POST">
+  <h1>Register</h1>
+  <input type ="text" name="name" placeholder="Name" >
+  <input type ="text" placeholder="Rollno" name="rollno"Roll Number" >
+  <input type="email" name="email" placeholder="Email" >
+  <input type="password" name="pass" placeholder="Password" >
+  <input type="password" name="cnfrmpass" placeholder="Password" >
+  <br>
+  <font color="#2ecc71">Gender:</font>
+  <input type="radio" name="gender"><font color=" #2ecc71">Male</font>
+  <input type="radio" name="gender"><font color=" #2ecc71">Female</font>
+  <input type="radio" name="gender"><font color=" #2ecc71">Others</font>
+  </br>
+  <button id="button1" type="submit" onclick="return check()">Register</button>
+  <font color="white">Already Registered then </font><a href='/login'><u><font color="#2ecc71">Login</font></u></a>
+</form>
+  </body>
+</html>

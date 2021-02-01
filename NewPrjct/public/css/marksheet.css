@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    
+}
+th{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.last{
+    color: white;
+    padding: 10px;
+    
+}

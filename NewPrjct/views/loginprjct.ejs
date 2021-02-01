@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َStudent Login Form</title>
+    <link rel="stylesheet" href="/public/css/login.css">
+    <script src="/public/js/login.js"></script>
+ </head>
+  <body>
+<form class="box" name="Form" action="/check" method="POST">
+  <h1>Login</h1>
+  <input type="email" name="email" placeholder="Email">
+  <input type="password" name="password" placeholder="Password">
+  <button id="button1" type="submit" onclick="return check()">Login</button>
+  <font color="white">Don't have an account? </font><u><i><a href="/signup"><font color="#2ecc71">Register</font></a></i></u>
+</form>
+  </body>
+</html>
